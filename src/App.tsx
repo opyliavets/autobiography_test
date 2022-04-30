@@ -1,17 +1,16 @@
 import React from 'react';
 import './App.css';
+import { Header } from './Header';
 
-const Header = () => 
-  <h1>
-      Oleksandr Pyliavets
-  </h1>
-
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-    </div>
-  );
+const user = {
+  userName: 'Oleksandr',
+  userLastName: 'Pyliavyets'
 }
 
+const App = () => (
+  <div className="App">
+    <h1>{user.userName + " " + user.userLastName}</h1>
+    <Header copyright = "Hello, world"/>
+  </div>
+)
 export default App;
