@@ -6,5 +6,5 @@ type HeaderProps = {
 
 export const Header: React.FC<HeaderProps> = (props) => 
     <h1>
-    {props.copyright}
+        {props.copyright}
     </h1>;
