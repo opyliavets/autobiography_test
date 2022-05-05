@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components/Header';
+import { Review } from './components/pages/Review';
+import { User } from './components/title/User';
 
 
 const App = () => (
   <div className="App">
-    <Header/>   
+    <User/>
+    <Review/>  
   </div>
 )
 export default App;

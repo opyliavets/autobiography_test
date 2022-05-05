@@ -1,0 +1,46 @@
+{
+    "page1":{
+        "title":"Experiance",
+        "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis corrupti hic consectetur fugiat, quas perferendis blanditiis, beatae aliquid tenetur maxime quia? Ullam error distinctio ea minima aperiam quia assumenda!", 
+        "position_1":{
+            "title":"Product manager",
+            "company":"Astra, ABA",
+            "date_start":"May, 2019",
+            "date_end":"Apr, 2022",
+            "achievements":"",
+            "work_with":""
+        },
+        "position_2":{
+            "title":"Supply manager",
+            "company":"Astra, ABA",
+            "date_start":"Feb, 2017",
+            "date_end":"Apr, 2019",
+            "achievements":"",
+            "work_with":""
+        }
+    }, 
+    "page2":{
+        "title":"Skills",
+        "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis corrupti hic consectetur fugiat, quas perferendis blanditiis, beatae aliquid tenetur maxime quia? Ullam error distinctio ea minima aperiam quia assumenda!", 
+        "skill1":{
+            "title":"Product management",
+            "rating":"5",
+            "years_of_use":"3"
+        }, 
+        "skill2":{
+            "title":"B2B Sales",
+            "rating":"5",
+            "years_of_use":"3"
+        },
+        "skill3":{
+            "title":"B2B Marketing",
+            "rating":"5",
+            "years_of_use":"3"
+        }, 
+        "skill4":{
+            "title":"Analysis",
+            "rating":"5",
+            "years_of_use":"3"
+        }
+    }
+}

@@ -1,8 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Photo, Name } from './Photoname';
 import { Data } from './Data';
-import usersData from '../data/data.json';
-
+import usersData from '../../data/data.json'
 export class User extends PureComponent{
   render(){
     return (
