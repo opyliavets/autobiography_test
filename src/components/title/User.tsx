@@ -9,8 +9,7 @@ export class User extends PureComponent{
       <div>
         <Photo imgsourse={usersData.user_002.photo}/>
         <Name username={usersData.user_002.name}/>
-        <Data date={usersData.user_002.birthDate}/>
-        <h1>Experiance</h1>
+        <Data date={usersData.user_002.birthDate}/>        
       </div>
     )
   }

@@ -1,4 +1,5 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {FC
+} from 'react';
 
 type DataProps = {
     date: string
