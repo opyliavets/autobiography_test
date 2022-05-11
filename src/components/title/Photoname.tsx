@@ -1,12 +1,12 @@
 import React, {FC} from 'react';
 
-type Photo = {imgsourse: string}
+type Photo = {imgsourse: string, className: string}
 type Name = {username: string}
   
 
 export const Photo: FC<Photo> = (props) => (
-  <div className="photoname_photo">
-    <img src={props.imgsourse} alt="photo" />
+  <div>
+    <img className={props.className} src={props.imgsourse} alt="photo" />
   </div>
 );
 
